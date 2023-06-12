@@ -1,2 +1,4 @@
 # Maze
- Maze-solving algorithm
+
+Maze-Solving Algorithm for Buutti Oy.
+Part of Their Job Application Process.
