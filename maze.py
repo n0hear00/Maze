@@ -3,7 +3,6 @@ def solve_maze_with_move_limit(maze_file, max_moves):
     file = open(maze_file, "r")
     maze = file.readlines()
 
-    # Variable declarations
     # Start and end coordinates of the mazes
     start = None
     goal = None
@@ -12,7 +11,7 @@ def solve_maze_with_move_limit(maze_file, max_moves):
     # Path stores the correct route to exit
     path = []
 
-    # This function finds the walls of the mazes
+    # Finds the walls of the mazes
     def get_wall_positions(row, col):
         walls = []
 
